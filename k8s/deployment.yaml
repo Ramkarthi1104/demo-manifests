@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: demo
-        image: praisen/demo-ci-cd:0   # Jenkins will update this tag
+        image: praisen/demo-ci-cd:1
         ports:
         - containerPort: 8080
